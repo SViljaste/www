@@ -1,0 +1,7 @@
+version: "3"
+services:
+  www:
+    build: .
+    container_name: www
+    ports:
+      - "8080:80"
